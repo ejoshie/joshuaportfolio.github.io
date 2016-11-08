@@ -1,0 +1,109 @@
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    border: 1px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("http://i.imgur.com/SivJ94W.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+#name {
+ border: 1px solid black;
+ color: rgba(255, 255, 255, 0.7);
+ font-family: Tillana, Arial, sans-serif;
+ font-size: 60px;
+ line-height: 100%;
+ margin: 10px;
+ text-align: right;
+ text-transform: uppercase;
+}
+
+body {
+    background-color: tan;
+}
+
+p {
+    font-family: Tillana, Arial, sans-serif;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.office {
+    float: left;
+    border: 1px black;
+}
+
+.links img {
+    padding: 20px;
+    margin: 0px;
+    float: right;
+    display: block;
+    height: 100px;
+    position: static;
+    width: 90px;
+}
+
+.container{
+	width:800px;
+	height:400px;
+	padding:20px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background: black;	
+}
+.slider_wrapper{
+	overflow: hidden;
+	position:relative;
+	height:280px;
+	top:auto;
+}
+#image_slider{
+
+	position: relative;
+	height: auto;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	/*Chrom default padding for ul is 40px */
+	padding:0px;
+	margin:0px;
+}
+#image_slider li{
+	position: relative;
+	float: left;
+}
+.nvgt{
+	position:absolute;
+	top: 120px;
+	height: 50px;
+	width: 30px;
+	opacity: 0.6;
+}
+.nvgt:hover{
+	opacity: 0.9;
+}
+#prev{
+	background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+	left: 0px;
+}
+#next{
+	background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+	right: 0px;
+}
